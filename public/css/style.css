@@ -1,0 +1,1077 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* halaman home */
+/* navbar */
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav {
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+.navbar-brand {
+    margin-right: auto;
+    margin-left: 0;
+}
+.navbar-brand img {
+    height: auto;
+    max-width: 50%;
+    width: auto;
+}
+
+.navbar-nav {
+    white-space: nowrap;
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    background-color: white;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        background-color: #2865b0;
+        border-top: 0.1pxx solid #999;
+        padding-top: 0.1px;
+        margin-top: 0.1px;
+    }
+}
+/* end navbar */
+
+/* gambar geomarine 3 */
+
+.geomarine3 {
+    width: 90%;
+}
+
+/* end gambar marine 3 */
+
+/* gambar container 1 */
+.image-container1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+#gambar-container1 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Mengisi lebar container */
+    height: 100%; /* Menjaga aspek rasio gambar */
+    object-fit: cover;
+}
+
+@media (max-width: 400px) {
+    .image-container1 {
+        height: auto;
+        width: auto;
+    }
+}
+
+.overlay-image-container1 {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 1;
+    max-width: 400px;
+}
+
+.overlay-image-container1 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.overlay-image-container1 a.btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.overlay-image-container1 a.btn:hover {
+    background-color: #007bff;
+}
+
+@media (max-width: 767px) {
+    .overlay-image-container1 {
+        left: 35%;
+        transform: translateX(-50%);
+    }
+}
+
+/*end halaman home */
+
+/* Halaman Sejarah */
+
+/* gambar container 1 */
+.image-container2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    display: inline-block;
+}
+
+#gambar-container2 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Mengisi lebar container */
+    height: 100%; /* Menjaga aspek rasio gambar */
+    object-fit: cover;
+}
+
+@media (max-width: 400px) {
+    .image-container2 {
+        height: auto;
+        width: auto;
+    }
+}
+
+.overlay-image-container2 {
+    position: absolute;
+    text-align: left;
+    top: 70%;
+    left: 15.9%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.5);
+    z-index: 1;
+    max-width: 400px;
+}
+
+.overlay-image-container2 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+@media (max-width: 767px) {
+    .overlay-image-container2 {
+        left: 35%;
+        transform: translateX(-50%);
+    }
+}
+
+.sejarah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.sejarah div {
+    text-align: justify;
+    width: 70%;
+}
+/* end halaman sejarah */
+
+/* halaman tugas dan fungsi */
+.image-container3 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    display: inline-block;
+}
+
+#gambar-container3 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Mengisi lebar container */
+    height: 100%; /* Menjaga aspek rasio gambar */
+    object-fit: cover;
+}
+
+@media (max-width: 400px) {
+    .image-container3 {
+        height: auto;
+        width: auto;
+    }
+}
+
+.overlay-image-container3 {
+    position: absolute;
+    text-align: left;
+    top: 70%;
+    left: 15.9%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.5);
+    z-index: 1;
+    max-width: 400px;
+}
+
+.overlay-image-container3 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+@media (max-width: 767px) {
+    .overlay-image-container3 {
+        left: 35%;
+        transform: translateX(-50%);
+    }
+}
+
+.tugasdanfungsi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.tugasdanfungsi div {
+    text-align: justify;
+    width: 70%;
+}
+
+/* end halaman tugas dan fungsi */
+
+/* Halaman Kegiatan */
+.image-container4 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    display: inline-block;
+}
+
+#gambar-container4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Mengisi lebar container */
+    height: 100%; /* Menjaga aspek rasio gambar */
+    object-fit: cover;
+}
+
+@media (max-width: 400px) {
+    .image-container4 {
+        height: auto;
+        width: auto;
+    }
+}
+
+.overlay-image-container4 {
+    position: absolute;
+    text-align: left;
+    top: 70%;
+    left: 15.9%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.5);
+    z-index: 1;
+    max-width: 400px;
+}
+
+.overlay-image-container4 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+@media (max-width: 767px) {
+    .overlay-image-container4 {
+        left: 35%;
+        transform: translateX(-50%);
+    }
+}
+
+.kegiatan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.kegiatan div {
+    text-align: justify;
+    width: 70%;
+}
+
+/* end halaman kegiatan */
+
+/* halaman kapal survei */
+.image-container5 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    display: inline-block;
+}
+
+#gambar-container5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Mengisi lebar container */
+    height: 100%; /* Menjaga aspek rasio gambar */
+    object-fit: cover;
+}
+
+@media (max-width: 400px) {
+    .image-container5 {
+        height: auto;
+        width: auto;
+    }
+}
+
+.overlay-image-container5 {
+    position: absolute;
+    text-align: left;
+    top: 70%;
+    left: 15.9%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.5);
+    z-index: 1;
+    max-width: 400px;
+}
+
+.overlay-image-container5 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.kapal {
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .overlay-image-container5 {
+        left: 35%;
+        transform: translateX(-50%);
+    }
+}
+.layanan-kapal-survei {
+    display: flex;
+    justify-content: center;
+}
+
+/* end halaman kapal survei */
+
+.image-container6 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 7%;
+}
+
+#gambar-container6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Mengisi lebar container */
+    height: 100%; /* Menjaga aspek rasio gambar */
+    object-fit: cover;
+}
+
+@media (max-width: 400px) {
+    .image-container6 {
+        height: auto;
+        width: auto;
+    }
+}
+
+.overlay-image-container6 {
+    position: absolute;
+    text-align: left;
+    top: 70%;
+    left: 15.9%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.5);
+    z-index: 1;
+    max-width: 400px;
+}
+
+.overlay-image-container6 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.kapal {
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .overlay-image-container6 {
+        left: 35%;
+        transform: translateX(-50%);
+    }
+}
+.layanan-kapal-survei {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+
+.kontak .container-fluid {
+    max-width: 100%;
+}
+
+/* register  form */
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    background-color: white;
+    height: 70%;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+/* end register form */
+.account-page {
+    padding: 50px 0;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1410px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+}
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.form-container {
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.form-container span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+#Indicator {
+    width: 100px;
+    border: none;
+    background: #555;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+.form-btn {
+    display: inline-block;
+}
+
+form a {
+    font-size: 12px;
+    color: #000;
+}
+#Indicator {
+    width: 100px;
+    border: none;
+    background: #555;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fea000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+
+.form-btn {
+    display: inline-block;
+}
+form .btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10% 0;
+}
+form .btn:focus {
+    outline: none;
+}
+
+/* Gaya footer */
+footer {
+    background-color: #fea000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+/* Gaya konten di bagian kiri footer */
+.footer-left {
+    align-items: center;
+}
+
+.footer-left p {
+    margin-left: 20px;
+    color: #fff; /* Mengatur warna teks menjadi putih */
+    margin-top: 10px;
+
+}
+
+/* Gaya konten di bagian kanan footer */
+.footer-right {
+    margin-left: 75em; /* Ini akan mendorong elemen ke kanan */
+    align-items: center;
+}
+
+.footer-right img {
+    width: 270px;
+    height: 50px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+
+.container-layanan {
+    width: 1400px;
+    height: 100%;
+    margin: 50px auto;
+    display: inline-block;
+
+    border: 1px solid black;
+}
+
+.container-layanan h1 {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container-kontak {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #fea000;
+}
+
+.contact-info {
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 4rem;
+    margin-top: 10rem;
+    padding-bottom: 30px;
+}
+
+.map-container {
+    flex: 1;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.container-kontak .contact-info h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.container-kontak .contact-info h3 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.container-kontak .contact-info p {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+
+form {
+    border-color: #000;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.table-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.orders-container {
+    background-color: #ffffff;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    border-radius: 40px;
+    box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -webkit-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -moz-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    padding: 40px;
+}
+
+.started-at {
+    width: 270px; /* Atur lebar sesuai kebutuhan Anda */
+}
+
+.ended-at {
+    width: 270px; /* Atur lebar sesuai kebutuhan 
+    Anda */
+}
+
+.ended-at h6 {
+    margin-bottom: 7px;
+}
+
+.started-at {
+    margin-bottom: 7px;
+}
+
+.orders-image img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.orders-btn {
+    background-color: blue; /* Ganti dengan warna biru yang diinginkan */
+    color: white; /* Warna teks pada tombol */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.orders-btn:hover {
+    background-color: white; /* Warna putih saat dihover */
+    color: rgb(249, 140, 52); /* Warna teks saat dihover */
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item-gambar {
+    margin: 0 5px;
+    text-align: center;
+}
+
+.flex-item-gambar a {
+    display: inline-block;
+    width: 35em; 
+    height: 35em; 
+}
+
+.flex-item-gambar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.main-konfirmasi {
+    max-width: 800px;
+    margin: 3em auto;
+    padding: 3em;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -webkit-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -moz-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+}
+
+.article-konfirmasi {
+    margin-bottom: 2em;
+}
+
+.article-konfirmasi h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: orange; /* Warna oranye yang menarik */
+    font-style: italic; /* Gaya huruf miring */
+}
+
+.button-konfirmasi button {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #ff8432;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+        rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #f6931b;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+        Ubuntu, sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 5em 10px 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all 0.2s, box-shadow 0.08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+}
+
+.button-konfirmasi {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #ff8432;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+        rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #0000;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+        Ubuntu, sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 5em 10px 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all 0.2s, box-shadow 0.08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+}
+.button-konfirmasi:disabled {
+    cursor: default;
+}
+
+.button-konfirmasi:focus {
+    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+        rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+        rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+.orders-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.orders-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orders-description {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+
+.container_status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 65%;
+}
+
+.styled-table thead tr {
+    background-color: #ff8b1f;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ffa32b;
+}
+.function-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Styling for list items within the function list */
+.function-list li {
+    margin-bottom: 0.5em;
+}
+
+/* Optional: Adjust the paragraph font weight */
+.font-weight-400 {
+    font-weight: 400;
+}
+.card-header {
+    font-weight: 400;
+    background-color: #ff8432;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 1em 0;
+    box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -webkit-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -moz-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+}
+
+
+.custom__form input {
+  opacity: 0;
+  height: 0;
+  
+}
+
+.custom__image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.custom__image-container label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150%;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.custom__image-container img {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+
+.custom__form button {
+    color: #000;
+}
+
+
+.image-preview-container {
+    margin-top: 1em;
+    text-align: center;
+}
+
+#image-preview {
+    max-height: 300px;
+}
+
+
+
+.main-konfirmasi button {
+    background-color: #fea000;
+}
