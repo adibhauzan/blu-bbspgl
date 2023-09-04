@@ -12,6 +12,7 @@
                     <th>No. </th>
                     <th>Gambar</th>
                     <th>Layanan </th>
+                    <th>Stock</th>
                     <th>Deskripsi </th>
                     <th>Aksi </th>
                 </tr>
@@ -22,6 +23,7 @@
                         <td>{{ $loop->iteration }}</td>
                         <td> <img src="{{ asset('storage/images/' .$detail->image) }}" alt="{{ $detail->name }}"></td>
                         <td>{{ $detail->name }}</td>
+                        <td>{{ $detail->stock }}</td>
                         <td>{{ $detail->description }}</td>
                         <td>
                             <a href="{{ route('show.orders', ['service_details_id' => $detail->id]) }}"

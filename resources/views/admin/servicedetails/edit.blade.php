@@ -16,10 +16,16 @@
                         value="{{ $servicedetail->name }}" placeholder="Service Detail Name">
                 </div>
                 <div class="form-group">
+                    <label for="stock">Stock</label>
+                    <input type="text" class="form-control" id="stock" stock="stock"
+                        value="{{ $servicedetail->stock }}" placeholder="Stock">
+                </div>
+                <div class="form-group">
                     <label for="services_id">Jenis Service</label>
                     <select class="form-control" id="service_id" name="services_id">
                         @foreach ($services as $service)
-                            <option value="{{ $service->id }}" {{ $service->id === $servicedetail->services_id ? 'selected' : '' }}>
+                            <option value="{{ $service->id }}"
+                                {{ $service->id === $servicedetail->services_id ? 'selected' : '' }}>
                                 {{ $service->name }}
                             </option>
                         @endforeach
@@ -30,10 +36,10 @@
                     <div class="input-group">
                         <div class="custom-file">
                             <label class="custom-file-label" for="image"></label>
-                            <input type="file" class="custom-file-input" id="image"  name="image" accept="image/*">
+                            <input type="file" class="custom-file-input" id="image" name="image" accept="image/*">
                         </div>
                     </div>
-                    <img id="image-preview" src=""  style="max-width: 100%; max-height: 200px; margin-top:10px;">  
+                    <img id="image-preview" src="" style="max-width: 100%; max-height: 200px; margin-top:10px;">
                 </div>
                 <div class="form-group">
                     <label for="price_per_day">Harga Per Hari</label>
@@ -42,8 +48,7 @@
                 </div>
                 <div class="form-group">
                     <label for="description">Description</label>
-                    <textarea id="description" class="form-control" rows="4" name="description"
-                        placeholder="Enter Description">{{ $servicedetail->description }}</textarea>
+                    <textarea id="description" class="form-control" rows="4" name="description" placeholder="Enter Description">{{ $servicedetail->description }}</textarea>
                 </div>
                 <button type="submit" class="btn btn-primary mt-10">Save</button>
             </form>

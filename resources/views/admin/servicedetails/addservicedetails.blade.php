@@ -16,6 +16,10 @@
                         placeholder="Masukkan Nama Layanan">
                 </div>
                 <div class="form-group">
+                    <label for="stock">Stock</label>
+                    <input type="text" class="form-control" id="stock" name="stock" placeholder="Masukkan stock">
+                </div>
+                <div class="form-group">
                     <label for="services_id">Jenis Service</label>
                     <select class="form-control" id="services_id" name="services_id">
                         @foreach ($services as $service)
@@ -25,8 +29,7 @@
                 </div>
                 <div class="form-group">
                     <label for="description">Description</label>
-                    <textarea id="description" class="form-control" rows="4" name="description"
-                        placeholder="Masukkan Description"></textarea>
+                    <textarea id="description" class="form-control" rows="4" name="description" placeholder="Masukkan Description"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="price_per_day">Harga Per Hari</label>

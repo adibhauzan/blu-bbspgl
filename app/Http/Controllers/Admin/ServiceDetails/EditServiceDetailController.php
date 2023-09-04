@@ -24,6 +24,7 @@ class EditServiceDetailController extends Controller
 
         $request->validate([
             'name' => 'required',
+            'stock' => 'required',
             'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
             'description' => 'required',
             'services_id' => 'required|exists:services,id',
@@ -37,6 +38,7 @@ class EditServiceDetailController extends Controller
         }
 
         $servicedetail->name = $request->input('name');
+        $servicedetail->stock = $request->input('stock');
         $servicedetail->services_id = $request->input('services_id');
         $servicedetail->price_per_day = $request->input('price_per_day');
         $servicedetail->description = $request->input('description');

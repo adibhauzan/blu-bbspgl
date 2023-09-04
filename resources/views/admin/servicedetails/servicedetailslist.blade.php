@@ -28,6 +28,9 @@
                             </th>
                             <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
                                 aria-label="CSS grade: activate to sort column ascending">Name</th>
+                            <th style="width: 10%">
+                                Stock
+                            </th>
                             <th style="width: 30%">
                                 Image
                             </th>
@@ -48,6 +51,7 @@
                             <tr>
                                 <td>{{ $loop->iteration }} </td>
                                 <td>{{ $serviceDetails->name }} </td>
+                                <td>{{ $serviceDetails->stock }} </td>
                                 <td>
                                     <img src="{{ asset('storage/images/' . $serviceDetails->image) }}"
                                         alt="{{ $serviceDetails->name }}" style="max-width: 100px;">
@@ -56,7 +60,8 @@
 
                                 <td class="project-actions">
 
-                                    <a class="btn btn-info btn-sm" href="{{route('showeditservicedetail', ['id' => $serviceDetails->id])}}">
+                                    <a class="btn btn-info btn-sm"
+                                        href="{{ route('showeditservicedetail', ['id' => $serviceDetails->id]) }}">
                                         <i class="fas fa-pencil-alt">
                                         </i>
                                         Edit
