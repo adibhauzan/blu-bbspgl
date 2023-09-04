@@ -3,7 +3,7 @@
 @include('admin.partials.header')
 
 <body class="hold-transition sidebar-mini layout-fixed">
-   
+
     <div class="wrapper">
         @include('admin.partials.navbar')
         @include('admin.partials.sidebar')
@@ -11,7 +11,6 @@
     </div>
 
     @include('admin.partials.scriptjs')
-
 </body>
 
 </html>
