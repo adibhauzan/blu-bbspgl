@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedBigInteger('service_details_id');
             $table->unsignedBigInteger('user_id');
             $table->foreign('service_details_id')->references('id')->on('service_details');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users');  
             $table->timestamp('started_at')->nullable();
             $table->timestamp('ended_at')->nullable();
             $table->decimal('total_price', 15, 2)->nullable();

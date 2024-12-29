@@ -10,7 +10,7 @@ class ServiceDetail extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['services_id', 'image', 'name', 'description'];
+    protected $fillable = ['services_id', 'image', 'name', 'stock', 'description'];
 
     public function service()
     {

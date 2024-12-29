@@ -5,7 +5,7 @@
 <body class="register-page" style="min-height: 540px;">
     <div class="register-box">
         <div class="register-logo">
-            <a href="{{ url('/') }}">{{ config('app.name', 'Laravel') }}</a>
+            <a href="{{ route('admin.register') }}">Register</a>
         </div>
         <div class="card">
             <div class="card-body register-card-body">

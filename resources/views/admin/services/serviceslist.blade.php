@@ -53,7 +53,7 @@
 
                                         <a class="btn btn-info btn-sm" href="{{route('showeditservice', ['id' => $service->id])}}">
                                             <i class="fas fa-pencil-alt">
-                                            </i>
+                                            </i>    
                                             Edit
                                         </a>
                                         <form action="{{ route('admin.services.destroy', ['id' => $service->id]) }}"

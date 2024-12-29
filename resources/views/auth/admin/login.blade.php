@@ -8,7 +8,7 @@
 <body class="login-page" style="min-height: 495.6px;">
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ route('admin.dashboard') }}"><b>Admin</b>LTE</a>
+            <a href="{{ route('admin.dashboard') }}"><b>Admin</b>BBSPGL</a>
         </div>
         <div class="card">
             <div class="card-body login-card-body">

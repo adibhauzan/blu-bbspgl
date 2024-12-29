@@ -13,8 +13,13 @@
     </section>
 
     <div class="kegiatan">
+        
         <div>
-            <p class="card-header"><strong>SURVEI GEOLOGI KELAUTAN</strong></p>
+            <p class="card-header" style="font-weight: 400;   background-color: #ff8432;
+            border-radius: 6px; padding: 10px; color:#fff; text-align:center; margin: 1em 0;  box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -webkit-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -moz-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+}"><strong>SURVEI GEOLOGI KELAUTAN</strong></p>
             <ul>
                 <li><strong>Survei geologi kelautan menjadi sangat penting </strong>karena sebagian besar proses-proses
                     geologi berada di laut, seperti: bukti-bukti lempeng tektonik (pemekaran lantai samudera, penunjaman dan
@@ -41,7 +46,11 @@
                 <li>Survei Infrastruktur dan lingkungan geologi wilayah pesisir &amp; laut</li>
                 <li>Survei Geowisata dan geopark kelautan.</li>
             </ul>
-            <p class="card-header"><strong>PEMETAAN GEOLOGI KELAUTAN</strong></p>
+            <p class="card-header"  style="font-weight: 400;   background-color: #ff8432;
+            border-radius: 6px; padding: 10px; color:#fff; text-align:center; margin: 1em 0;  box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -webkit-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    -moz-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+}"><strong>PEMETAAN GEOLOGI KELAUTAN</strong></p>
             <ul>
                 <li>Pemetaan geologi kelautan secara sistematik untuk memperoleh indikasi keterdapatan sumber daya geologi
                     kelautan di seluruh wilayah perairan Indonesia</li>
@@ -50,7 +59,11 @@
                     permukaan)</li>
             </ul>
             <ul>
-                <li class="card-header"><strong>2 jenis Pemetaan Geologi Kelautan</strong></li>
+                <p class="card-header"  style="font-weight: 400;   background-color: #ff8432;
+                border-radius: 6px; padding: 10px; color:#fff; text-align:center; margin: 1em 0;  box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+        -webkit-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+        -moz-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    }"><strong>2 jenis Pemetaan Geologi Kelautan</strong></p>
                 <li><strong>PEMETAAN SISTEMATIS: </strong></li>
             </ul>
             <p>Pemetaan geologi kelautan untuk evaluasi potensi ESDM, kebencanaan, keteknikan, lingkungan dankewilayahan
@@ -58,9 +71,13 @@
             <ul>
                 <li><strong>PEMETAAN TEMATIK: </strong></li>
             </ul>
-            <p">Pemetaan energi dan sumber daya mineral, kebencanaan, keteknikan, lingkungan &amp; kewilayahan (Pantai, ZEE
+            <p" >Pemetaan energi dan sumber daya mineral, kebencanaan, keteknikan, lingkungan &amp; kewilayahan (Pantai, ZEE
                 &amp; LKI)</p>
-                <p class="card-header"><strong>Kegiatan Pemetaan Geologi Kelautan</strong></p>
+                <p class="card-header"  style="font-weight: 400;   background-color: #ff8432;
+                border-radius: 6px; padding: 10px; color:#fff; text-align:center; margin: 1em 0;  box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+        -webkit-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+        -moz-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
+    }"><strong>Kegiatan Pemetaan Geologi Kelautan</strong></p>
                 <ul class="function-list">
                     <li>Pemetaan geologi dan geofisika kelautan sistematik</li>
                     <li>Pemetaan permukaan dasar laut;</li>

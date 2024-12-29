@@ -11,6 +11,7 @@ use App\Http\Controllers\ServiceDetailsController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\RegisteredAdminController;
 use App\Http\Controllers\ConfirmationOrderController;
+use App\Http\Controllers\Admin\Transaction\HistoryController;
 use App\Http\Controllers\Admin\Services\AddServicesController;
 use App\Http\Controllers\Admin\Services\EditServiceController;
 use App\Http\Controllers\Admin\Services\ServicesListController;
@@ -127,46 +128,60 @@ Route::post('/admin/login', [LoginAdminController::class, 'loginAdmin'])->name('
 // Routes for Admin Dashboard (protected with auth.admin middleware)
 Route::group(['middleware' => 'auth.admin', 'prefix' => 'admin'], function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+
     Route::get('/', [DashboardController::class, 'index'])->name('admin.dashboard');
+
     Route::get('userlist', [UserListController::class, 'index'])->name('userList');
 
 
-    
+
     // CRUD SERVICES
     Route::get('/serviceslist', [ServicesListController::class, 'showServices'])->name('showservices');
-    
+
     Route::get('/addservices', [AddServicesController::class, 'addServices'])->name('addservices');
-    
+
     Route::post('services/store', [AddServicesController::class, 'store'])->name('admin.services.store');
-    
+
     Route::get('/editservice{id}', [EditServiceController::class, 'showEditService'])->name('showeditservice');
-    
+
     Route::put('/updateservice/{id}', [EditServiceController::class, 'update'])->name('updateservice');
-    
+
     Route::delete('services/{id}', [DeleteServicesController::class, 'destroy'])->name('admin.services.destroy');
     // END CRUD SERVICES
 
 
-    
+
     // CRUD SERVICE DETAILS
     Route::get('/servicedetailslist', [ServiceDetailsListController::class, 'showServiceDetails'])->name('showservicesdetails');
+
     Route::get('/addservicedetails', [AddServiceDetailsController::class, 'addServicedetails'])->name('addservicedetails');
+
     Route::post('/admin/servicedetails', [AddServiceDetailsController::class, 'store'])->name('admin.servicedetails.store');
+
     Route::get('/editservicedetail/{id}', [EditServiceDetailController::class, 'showEditServiceDetail'])->name('showeditservicedetail');
+
     Route::put('/updateservicedetail/{id}', [EditServiceDetailController::class, 'update'])->name('updateservicedetail');
+
     Route::delete('servicedetails/{id}', [DeleteServiceDetailsController::class, 'destroy'])->name('admin.servicedetails.destroy');
     // END CRUD SERVICE DETAILS
 
     // CRUD ORDERS
     Route::get('/orderlist', [OrderListController::class, 'showOrders'])->name('showorders');
+
     Route::get('/editorder/{id}', [EditOrderController::class, 'showEditOrder'])->name('showeditorder');
+
     Route::put('/updateorder/{id}', [EditOrderController::class, 'update'])->name('updateorder');
+
     Route::delete('orders/{id}', [OrderListController::class, 'destroy'])->name('admin.orders.destroy');
     // END CRUD ORDERS
 
+
+    // START HISTORY
+    Route::get('/history', [HistoryController::class, 'showHistory'])->name('showhistory');
+    // Route::delete('history/{id}', [HistoryController::class, 'destroy'])->name('admin.history.destroy');
+    // END HSITROY
+
     Route::post('/logout', [LoginAdminController::class, 'logoutAdmin'])->name('admin.logout');
-
-
 });
 
 

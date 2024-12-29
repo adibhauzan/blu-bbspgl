@@ -22,6 +22,7 @@
     -webkit-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
     -moz-box-shadow: -1px 3px 23px -3px rgba(109, 109, 109, 0.75);
 }">
+
                 <strong>TUGAS :
                 </strong><strong>M</strong><strong>elaksanakan Survei Dan Pemetaan
                     Di Bidang Geologi Kelautan</strong>

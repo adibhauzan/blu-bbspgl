@@ -21,6 +21,8 @@ class DeleteServiceDetailsController extends Controller
 
         $serviceDetail->delete();
 
+
+
         return redirect()->route('showservicesdetails')->with('success', 'Data berhasil dihapus.');
     }
 }

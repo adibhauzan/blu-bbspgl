@@ -17,7 +17,7 @@
                 </div>
                 <div class="form-group">
                     <label for="stock">Stock</label>
-                    <input type="text" class="form-control" id="stock" stock="stock"
+                    <input type="text" class="form-control" id="stock" name="stock"
                         value="{{ $servicedetail->stock }}" placeholder="Stock">
                 </div>
                 <div class="form-group">

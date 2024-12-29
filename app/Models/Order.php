@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\History;
 use App\Models\ServiceDetail;
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Database\Eloquent\Model;
